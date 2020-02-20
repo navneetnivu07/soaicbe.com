@@ -17,7 +17,13 @@
 <!-- Site Icons -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
+<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 300px;
+        height: 350px;
+    }
+    </style>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Site CSS -->
@@ -249,6 +255,33 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+   <h1>
+       Gallery
+   </h1>
+    <div class="col-sm-3" >
+    <div id="demo" class="carousel slide" data-ride="carousel"> 
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/team/nivu.jpg" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="images/team/naveen.jpg" alt="Chicago" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="images/team/naveengct.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
 
     <section class="page-section">
         <div class="container">
